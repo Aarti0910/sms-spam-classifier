@@ -26,7 +26,7 @@ def transform_text(text):
 
     text = y[:]
     y.clear()
-pip install 
+
     for i in text:
         y.append(ps.stem(i))
 
